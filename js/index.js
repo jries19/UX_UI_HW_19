@@ -29,3 +29,10 @@ $(".mainButton").hover(function(){
     }, function(){
     $(this).css("text-decoration", "none");
   });
+
+  //logo hover interaction
+  $(".logoNav").hover(function(){
+    $(this).css("color", "#98D698")
+    }, function(){
+    $(this).css("color", "black");
+  });
