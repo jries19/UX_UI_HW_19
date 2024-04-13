@@ -1,0 +1,207 @@
+/*Adding fonts*/
+body{
+    font-family: "Ubuntu", sans-serif;
+    color: black;
+}
+h1{
+    font-family: "Lilita One", sans-serif;
+}
+h2{
+    font-family: "Lilita One", sans-serif;
+}
+h3{
+    font-family: "Lilita One", sans-serif;
+}
+/*Navigation*/
+.navBar{
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 50px;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.logoNav{
+    font-size: 50px;
+    font-family: "Leckerli One", sans-serif;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.navItemSection{
+    margin-right: 75px;
+}
+.navItems{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navItems li a{
+    margin-left: 20px;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/*Hero img/About me*/
+.heroImgCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px 50px 100px;
+}
+.greenBox{
+    background-color: #B1D697;
+    border-radius: 10px;
+    width: 924px;
+    height: 559px;
+}
+.heroText{
+    font-family: "Lilita One", sans-serif;
+    margin: 0px;
+    font-size: 60px;
+    padding: 80px 100px 10px 100px;
+}
+.subTextHero{
+    font-family: "Lilita One", sans-serif;
+    margin: 0px;
+    font-size: 25px;
+    padding: 0px 100px 10px 100px;
+}
+.bodyTextHero{
+    margin: 0px;
+    padding: 0px 100px 25px 100px;
+    font-size: 20px;
+}
+
+/*Project cards*/
+.projectCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 0 50px
+}
+.headerTextProjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+/*URC Project card*/
+.urcCard{
+    background-color: #B1D697;
+    border-radius: 10px;
+    width: 1394px;
+    height: 526px;
+    margin: 0 0 60px 22px
+}
+.urcContent{
+    display: flex;
+    flex-direction: row;
+}
+
+/*edGov Project card*/
+.edGovCard{
+    background-color: #B1D697;
+    border-radius: 10px;
+    width: 1394px;
+    height: 589px;
+    margin: 0 0 60px 22px
+}
+.edGovContent{
+    display: flex;
+    flex-direction: row;
+}
+.textContent{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 50px;
+}
+.textContent h2{
+    font-size: 40px;
+    margin: 0px;
+}
+.textContent h3{
+    padding-top: 10px;
+    font-size: 25px;
+    margin: 0px;
+}
+.textContent p{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Footer*/
+.footerBox{
+    background-color: #7AAC7A;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 188px;
+}
+.footerLogoContent{
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 25px;
+    text-align: left;
+}
+.logoFooter{
+    margin: 0px;
+    font-size: 50px;
+    color: black;
+    font-family: "Leckerli One", sans-serif;
+    cursor: pointer;
+}
+.footerText{
+    margin: 0px;
+    padding: 5px;
+}
+.footerLogoContent p{
+    font-style: italic;
+}
+.contactMe{
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.emailLogo{
+    padding-right: 10px;
+}
+
+/*buttons*/
+.mainButton{
+    background-color: #7AAC7A;
+    font-family: "Lilita One", sans-serif;
+    color: white;
+    font-size: 25px;
+    width: 236px;
+    height: 58px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    float: right;
+    margin: 0px 50px 50px 50px;
+}
+
+#cardButton{
+    margin-right: 15px;
+    padding: 0;
+    position: relative;
+    bottom: 80px;
+}
