@@ -17,3 +17,15 @@ $(".mainButton").hover(function(){
     }, function(){
     $(this).css("box-shadow", "none");
   });
+
+  //back to top button interaction
+  $(".topButton").on("click", function(){
+    $("html, body").animate({scrollTop: 0}, 800);
+  });
+
+  //nav link button interactions
+  $("li").hover(function(){
+    $(this).css("text-decoration", "underline");
+    }, function(){
+    $(this).css("text-decoration", "none");
+  });
