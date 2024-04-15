@@ -2,6 +2,8 @@
 body{
     font-family: "Ubuntu", sans-serif;
     color: black;
+    margin: 0px;
+    padding: 0px;
 }
 h1{
     font-family: "Lilita One", sans-serif;
@@ -50,6 +52,7 @@ h3{
     justify-content: space-evenly;
     padding: 15px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 /*Hero img/About me*/
@@ -158,7 +161,8 @@ h3{
 /*Footer*/
 .footerBox{
     background-color: #7AAC7A;
-    margin: 0px;
+    margin: 0px !important;
+    padding: 0px !important;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -197,9 +201,9 @@ h3{
     background-color: #7AAC7A;
     font-family: "Lilita One", sans-serif;
     color: white;
-    font-size: 25px;
-    width: 236px;
-    height: 58px;
+    font-size: 20px;
+    width: 157px;
+    height: 41px;
     text-align: center;
     border-radius: 10px;
     border: none;
@@ -213,5 +217,5 @@ h3{
     margin-right: 15px;
     padding: 0;
     position: relative;
-    bottom: 80px;
+    bottom: 60px;
 }
