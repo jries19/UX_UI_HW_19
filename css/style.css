@@ -65,6 +65,7 @@ h3{
 .greenBox{
     background-color: #B1D697;
     border-radius: 10px;
+    border: solid 1px darkgrey;
     width: 924px;
     height: 559px;
 }
@@ -117,6 +118,7 @@ h3{
 .urcCard{
     background-color: #B1D697;
     border-radius: 10px;
+    border: solid 1px darkgrey;
     width: 1394px;
     height: 526px;
     margin: 0 0 60px 22px
@@ -130,6 +132,7 @@ h3{
 .edGovCard{
     background-color: #B1D697;
     border-radius: 10px;
+    border: solid 1px darkgrey;
     width: 1394px;
     height: 589px;
     margin: 0 0 60px 22px
